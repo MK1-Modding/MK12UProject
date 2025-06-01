@@ -50,9 +50,6 @@
 			"Enabled": true
 		}
 	],
-	"AdditionalPluginDirectories": [
-		"Mods"
-	],
 	"TargetPlatforms": [
 		"Android",
 		"IOS",
