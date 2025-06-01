@@ -1,0 +1,63 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8BB508DA-40AF-8837-6288-858013FFF4BF}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MK12",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"NRSActor",
+				"AnimGraphRuntime",
+				"HierarchicalAnimation",
+				"HavokCloth",
+				"Mirroring"
+			]
+		},
+		{
+			"Name": "MK12Editor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UnrealEd",
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HavokCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "HavokInterface",
+			"Enabled": true
+		},
+		{
+			"Name": "Dismemberment",
+			"Enabled": true
+		},
+		{
+			"Name": "Scaleform",
+			"Enabled": false
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"Mods"
+	],
+	"TargetPlatforms": [
+		"Android",
+		"IOS",
+		"Linux",
+		"Mac",
+		"Windows"
+	]
+}

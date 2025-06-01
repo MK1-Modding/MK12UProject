@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 202212951,
+	"VersionName": "2022.1.12.8435.2951",
+	"FriendlyName": "Wwise Unreal Engine Integration",
+	"Description": "Wwise integration for Unreal Engine",
+	"Category": "Audio",
+	"CreatedBy": "Audiokinetic, Inc.",
+	"CreatedByURL": "http://audiokinetic.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AkAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		}
+	],
+	"Plugins": [
+	]
+}
